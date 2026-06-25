@@ -1,0 +1,48 @@
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+}
+
+.container{
+    width:500px;
+    margin:50px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+.add-task{
+    display:flex;
+    gap:10px;
+}
+
+input{
+    flex:1;
+    padding:10px;
+}
+
+button{
+    padding:10px;
+    cursor:pointer;
+}
+
+li{
+    display:flex;
+    justify-content:space-between;
+    margin:10px 0;
+}
+
+.completed{
+    text-decoration:line-through;
+    color:gray;
+}
+
+.filters{
+    margin-top:20px;
+}
+
+.delete-all{
+    margin-top:20px;
+    background:red;
+    color:white;
+}
